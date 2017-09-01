@@ -10,4 +10,8 @@ took a look at the google  page w/ dev tools and took a different approach.
 More tweaking could be done but I am moving on to the Difficult version of the
 project.
 
+update:
+finish difficult version of assignment and returned to clean up this one. 
+
+
 From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)

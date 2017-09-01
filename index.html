@@ -1,55 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Odin Project Assignment - Build the Google Search Page</title>
+<title>Odin Project Assignment - Build the Google Search Page - Easy Version</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-      <ul>
+  <div class="header">
+    <ul>
       <li><a href="https://mail.google.com">Gmail</a></li>
       <li><a href="https://www.google.com/imghp?hl=en&amp;tab=wi">Images</a></li>
-      <li><a href="https://www.google.com/intl/en/options/"><img src="images/google-apps.png" alt="link to google apps" style="
-    width: 18px;
-"></a></li>
-      <li><input type="submit" value="Sign in"></li>
-  </ul>
-    </div>
+      <li><a href="https://www.google.com/intl/en/options/"><img src="images/google-apps.png" alt="link to google apps" style="width: 18px;"></a></li>
+      <li style="padding-right: 20px">
+        <button>Sign in</button>
+      </li>
+    </ul>
+  </div>
+  <center>
     <div class="logo">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
-<div class="searchbar">
-<form>
-  <input type="search" name="searchterm" action="/action_page.php" method="post" size="50" value="">
-</form>
+    <div class="searchbar">
+      <form>
+        <input type="search" name="searchterm" action="/action_page.php" method="post" size="56" value="">
+      </form>
+      <div class="mic"><img src="images/mic.png" alt="Ok Google Mic Image" width="25px" height="25px">
+      </div>
     </div>
     <div class="below-search">
-<center>
-<input value="Google Search" type="submit">
-<input value="I'm Feeling Lucky" type="submit">
-</center>
-</div>
- <div class="footer">
-    <ul>
-  <li><a href="#home">Advertising</a></li>
-  <li><a href="#news">Buisiness</a></li>
-  <li><a href="#contact">About</a></li>
-    <li style="float:right" ><a class="active" href="#about" style="
-    padding-right: 10px;">Settings</a></li>
-    <li style="float:right"><a class="active" href="#about">Terms</a></li>
-    <li style="float:right"><a class="active" href="#about">Privacy</a></li>
-
-
-</ul>
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+      <p>Together we raised $2M for Harvey relief. Keep giving</p>
     </div>
-</div>
-
+  </center>
+  <div class="foot">
+    <ul> <!--style is done inline b/c CSS style for .foot a {} did not work-->
+      <li><a style="font-size: small; color: #666;" href="#home">Advertising</a></li>
+      <li><a style="font-size: small; color: #666;" href="#news">Buisiness</a></li>
+      <li><a style="font-size: small; color: #666;" href="#contact">About</a></li>
+      <li style="float:right" ><a href="#about" style="padding-right: 10px;font-size: small; color: #666;">Settings</a></li>
+      <li style="float:right"><a style="font-size: small; color: #666;"href="#about">Terms</a></li>
+      <li style="float:right"><a style="font-size: small; color: #666;"href="#about">Privacy</a></li>
+    </ul>
+  </div>
 </body>
-
 </html>
-<!--
 
-
-
-
--->
